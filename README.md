@@ -13,12 +13,6 @@ Mostrar su número de Pokédex.
 Informar cuando el Pokémon no existe.
 Avisar cuando el campo de búsqueda está vacío.
 Realizar búsquedas pulsando el botón o la tecla Enter.
-Estructura del proyecto
-pokedex/
-├── pokedex.html
-├── pokedex.css
-├── pokedex.js
-└── README.md
 
 Descripción de los archivos
 1. pokedex.html
