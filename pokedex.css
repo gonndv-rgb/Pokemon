@@ -1,0 +1,48 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+/* Título principal */
+h1 {
+    color: #e3350d;
+    
+}
+/* Campo de búsqueda */
+input {
+    padding: 10px;
+    width: 250px;
+    max-width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón de búsqueda */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #e3350d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Cambia el color del botón al pasar el cursor */
+button:hover {
+    background-color: #b52a0b;
+}
+
+/* Espacio entre la búsqueda y los resultados */
+#pokemonResult {
+    margin-top: 25px;
+}
+
+/* Imagen del Pokémon */
+#pokemonResult img {
+    width: 150px;
+    -webkit-image-rendering: pixelated;
+}
